@@ -16,7 +16,7 @@ export default function Portfolio() {
       <span className='description'>I am a Computer Science Major from James Madison University
         focused on Web Development.
       </span>
-      <Button id="learn-more-btn" href='/#about'>Learn More</Button>
+      <Button id="learn-more-btn" href='/#about' newWindow={false}>Learn More</Button>
       <h1 id='projects' className='section'>Projects</h1>
       <hr />
       <Container className="project-container">
@@ -44,7 +44,14 @@ export default function Portfolio() {
           sourceURL="https://github.com/hfsyntax/biomium"
           appURL="http://biome3d.com/"
         />
-        <ProjectCard imageSrc="/chick.png" title="Chick" desc="Bot for managing the Competitive Crossy Road Community Discord Server" stack={["Node"]} />
+        <ProjectCard
+          imageSrc="/chick.png"
+          title="Chick"
+          desc="Bot for managing the Competitive Crossy Road Community Discord Server"
+          stack={["Node"]}
+          sourceURL="https://github.com/hfsyntax/chickbot"
+          appURL="https://discord.gg/7Y3rNBT"
+        />
       </Container>
       <h1 id='technologies' className='section'>Technologies</h1>
       <hr />
