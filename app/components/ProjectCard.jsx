@@ -7,8 +7,8 @@ const ProjectCard = ({imageSrc, title, stack, desc, sourceURL, appURL}) => {
             <span>{desc}</span>
             <span><u>Stack</u></span>
             <span>{stack.join(", ")}</span>
-            <Button href={sourceURL} newWindow={true}>Source Code</Button>
-            <Button href={appURL} newWindow={true}>Try It</Button>
+            <Button href={sourceURL}>Source Code</Button>
+            <Button href={appURL}>Try It</Button>
         </div>
     )
 }
