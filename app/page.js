@@ -24,7 +24,7 @@ export default function Portfolio() {
           imageSrc="/crossyoff.png"
           title="CrossyOff"
           desc="Site for managing player data for the Competitive Crossy Road Community"
-          stack={["Node", "React", "CSS", "MySQL"]}
+          stack={["Next.js", "Node", "React", "CSS", "MySQL"]}
           sourceURL="https://github.com/hfsyntax/crossyoff"
           appURL="https://crossyoff.vercel.app/"
         />
@@ -34,7 +34,7 @@ export default function Portfolio() {
           desc="Site for managing NFL fantasy football selections."
           stack={["HTML", "JavaScript", "CSS", "PHP", "MySQL"]}
           sourceURL="https://github.com/hfsyntax/pick6"
-          appURL="https://pick-6.net/"
+          appURL="https://pick6.vercel.app/"
         />
         <ProjectCard
           imageSrc="/biomium.png"
