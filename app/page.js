@@ -1,7 +1,7 @@
-import Container from './components/Container';
-import Button from './components/Button';
-import ProjectCard from './components/ProjectCard';
-import TechCard from './components/TechCard';
+import Container from '../components/Container';
+import Button from '../components/Button';
+import ProjectCard from '../components/ProjectCard';
+import TechCard from '../components/TechCard';
 
 export const metadata = {
   title: "Noah Kaiser - Portfolio",
@@ -34,7 +34,7 @@ export default function Portfolio() {
           desc="Site for managing NFL fantasy football selections."
           stack={["HTML", "JavaScript", "CSS", "PHP", "MySQL"]}
           sourceURL="https://github.com/hfsyntax/pick6"
-          appURL="https://pick6.vercel.app/"
+          appURL="https://pick-6.net/"
         />
         <ProjectCard
           imageSrc="/biomium.png"
