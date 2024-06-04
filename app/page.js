@@ -21,7 +21,7 @@ export default function Portfolio() {
       <hr />
       <Container className="project-container">
         <ProjectCard
-          imageSrc="/crossyoff.png"
+          imageSrc="/img/crossyoff.png"
           title="CrossyOff"
           desc="Site for managing player data for the Competitive Crossy Road Community"
           stack={["Next.js", "Node", "React", "CSS", "MySQL"]}
@@ -29,7 +29,7 @@ export default function Portfolio() {
           appURL="https://crossyoff.vercel.app/"
         />
         <ProjectCard
-          imageSrc="/pick6.png"
+          imageSrc="/img/pick6.png"
           title="Pick6"
           desc="Site for managing NFL fantasy football selections."
           stack={["HTML", "JavaScript", "CSS", "PHP", "MySQL"]}
@@ -37,7 +37,7 @@ export default function Portfolio() {
           appURL="https://pick-6.net/"
         />
         <ProjectCard
-          imageSrc="/biomium.png"
+          imageSrc="/img/biomium.png"
           title="Biomium"
           desc="Browser extension for the website game biome3d.com"
           stack={["Node", "JavaScript", "CSS", "Tampermonkey"]}
@@ -45,7 +45,7 @@ export default function Portfolio() {
           appURL="http://biome3d.com/"
         />
         <ProjectCard
-          imageSrc="/chick.png"
+          imageSrc="/img/chick.png"
           title="Chick"
           desc="Bot for managing the Competitive Crossy Road Community Discord Server"
           stack={["Node"]}

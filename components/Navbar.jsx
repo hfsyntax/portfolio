@@ -21,7 +21,7 @@ const Navbar = () => {
 
     return (
         <nav id="navbar" className={navbarShadow}>
-            <Image src="/noahkaiser.jpg" priority={true} draggable="false" width="75" height="100" alt="nav logo"/>
+            <Image src="/img/noahkaiser.jpg" priority={true} draggable="false" width="75" height="100" alt="nav logo"/>
             <h1 id="logo"><Link draggable="false" href="/">Noah Kaiser</Link></h1>
             <ul id="navbar-container">
                 <li className="nav-item"><Link draggable="false" href="/#projects">Projects</Link></li>

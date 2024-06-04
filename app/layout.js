@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google"
-import "../public/globals.css"
+import "../public/css/globals.css"
 import "@fortawesome/fontawesome-svg-core/styles.css"
 import Container from "../components/Container"
 import Navbar from "../components/Navbar"
