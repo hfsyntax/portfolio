@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import ProjectCard from "@/components/ProjectCard";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -10,9 +9,9 @@ export default function Portfolio() {
     <div id="content">
       <h1 className='section'>Hey!</h1><br />
       <h1>I'm Noah Kaiser</h1>
-      <span className='description'>
-        I am a Web Developer and a Computer Science graduate from James Madison University.
-      </span>
+      <p className='description'>
+      As a recent Computer Science graduate from James Madison University, I am passionate about web development and eager to start my career in this dynamic field. The knowledge gained from my academic experience has motivated me to create a variety of full stack web applications. After learning React, I discovered the powerful Next.js framework and its integration with Vercel. Vercel provided me access to create and manage databases interconnected with my website applications.
+      </p>
       <Link className="btn" id="learn-more-btn" href='/#about'>Learn More</Link>
       <h1 id='projects' className='section'>Projects</h1>
       <hr />
@@ -60,12 +59,12 @@ export default function Portfolio() {
         <div className="tech-card">
           <FontAwesomeIcon icon={faReact} size="2xl" />
           <h2>Front-End</h2>
-          <span>React.js, JavaScript, HTML, CSS</span>
+          <span>CSS, HTML, JavaScript, Next.js, Node.js, React.js</span>
         </div>
         <div className="tech-card">
           <FontAwesomeIcon icon={faDatabase} size="2xl" />
           <h2>Back-End</h2>
-          <span>MongoDB, Node, MySQL, PHP, phpMyAdmin, REST, SCORM 2004</span>
+          <span>Discord.js, MySQL, Next.js, Node, PHP, phpMyAdmin, PostgreSQL, REST, SCORM 2004</span>
         </div>
       </div>
       <h1 id='about' className='section'>About Me</h1>
