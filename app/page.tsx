@@ -31,7 +31,7 @@ export default function Portfolio() {
           desc="Site for managing NFL fantasy football selections."
           stack={["Next.js", "Node.js", "React.js", "CSS", "PostgreSQL"]}
           sourceURL="https://github.com/hfsyntax/pick6"
-          appURL="https://pick-6.net/"
+          appURL="https://pick6.vercel.app/"
         />
         <ProjectCard
           imageSrc="/biomium.png"
