@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
-export default function Footer(): JSX.Element {
+export default function Footer() {
   return (
     <div className="absolute left-0 top-full flex h-[50px] w-full select-none items-center justify-center bg-black">
       <span className="mr-5 text-white">Made by Noah Kaiser.</span>

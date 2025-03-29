@@ -17,7 +17,7 @@ export default function ProjectCard({
   desc,
   sourceURL,
   appURL,
-}: MyComponentProps): JSX.Element {
+}: MyComponentProps) {
   return (
     <div className="ml-[10px] mt-[10px] box-border inline-block h-fit w-[590px] border-[3px] border-solid border-black bg-[#353839] text-center text-white">
       <Image

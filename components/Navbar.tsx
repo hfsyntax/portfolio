@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
-export default function Navbar(): JSX.Element {
+export default function Navbar() {
   const [navbarShadow, setNavbarShadow] = useState<string>("")
 
   const highlightNavbar = (): void => {

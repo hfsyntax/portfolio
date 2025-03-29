@@ -3,8 +3,12 @@ import Link from "next/link"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faReact } from "@fortawesome/free-brands-svg-icons"
 import { faDatabase } from "@fortawesome/free-solid-svg-icons"
+import { unstable_cacheLife as cacheLife } from "next/cache"
 
-export default function Portfolio() {
+export default async function Portfolio() {
+  "use cache"
+  // never revalidate cache
+  cacheLife("infinite")
   return (
     <div className="relative left-0 mt-[150px] flex w-full transform-none select-none flex-col overflow-auto text-center font-sans xl:left-1/2 xl:w-[1200px] xl:-translate-x-1/2 xl:text-left">
       <h1 className="mt-10 text-[50px]">Hey!</h1>

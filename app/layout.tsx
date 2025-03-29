@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
-import "./globals.css"
+import "@/app/globals.css"
 import "@fortawesome/fontawesome-svg-core/styles.css"
 import { ReactNode } from "react"
 import Navbar from "@/components/Navbar"
