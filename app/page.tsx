@@ -1,8 +1,11 @@
 import ProjectCard from "@/components/ProjectCard"
 import Link from "next/link"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faReact } from "@fortawesome/free-brands-svg-icons"
-import { faDatabase } from "@fortawesome/free-solid-svg-icons"
+import {
+  faWrench,
+  faDesktop,
+  faServer,
+} from "@fortawesome/free-solid-svg-icons"
 import { unstable_cacheLife as cacheLife } from "next/cache"
 
 export default async function Portfolio() {
@@ -38,7 +41,15 @@ export default async function Portfolio() {
           imageSrc="/crossyoff.png"
           title="CrossyOff"
           desc="Site for managing player data for the Competitive Crossy Road Community"
-          stack={["Next.js", "Node.js", "React.js", "CSS", "PostgreSQL"]}
+          stack={[
+            "Next.js",
+            "Neon",
+            "Node.js",
+            "PostgreSQL",
+            "Tailwind CSS",
+            "TypeScript",
+            "Vercel",
+          ]}
           sourceURL="https://github.com/hfsyntax/crossyoff"
           appURL="https://crossyoff.vercel.app/"
         />
@@ -46,7 +57,15 @@ export default async function Portfolio() {
           imageSrc="/pick6.png"
           title="Pick6"
           desc="Site for managing NFL fantasy football selections."
-          stack={["Next.js", "Node.js", "React.js", "CSS", "PostgreSQL"]}
+          stack={[
+            "Next.js",
+            "Neon",
+            "Node.js",
+            "PostgreSQL",
+            "Tailwind CSS",
+            "TypeScript",
+            "Vercel",
+          ]}
           sourceURL="https://github.com/hfsyntax/pick6"
           appURL="https://pick6.vercel.app/"
         />
@@ -54,15 +73,22 @@ export default async function Portfolio() {
           imageSrc="/biomium.png"
           title="Biomium"
           desc="Browser extension for the website game biome3d.com"
-          stack={["Node.js", "JavaScript", "CSS", "Tampermonkey"]}
+          stack={[
+            "CSS",
+            "Node.js",
+            "JavaScript",
+            "Render",
+            "Socket.io",
+            "Tampermonkey",
+          ]}
           sourceURL="https://github.com/hfsyntax/biomium"
           appURL="http://biome3d.com/"
         />
         <ProjectCard
           imageSrc="/chick.png"
-          title="Chick"
+          title="ChickBot"
           desc="Bot for managing the Competitive Crossy Road Community Discord Server"
-          stack={["Node.js", "Discord.js"]}
+          stack={["Discord.js", "Node.js", "Render", "TypeScript"]}
           sourceURL="https://github.com/hfsyntax/chickbot"
           appURL="https://discord.gg/7Y3rNBT"
         />
@@ -78,17 +104,22 @@ export default async function Portfolio() {
       </span>
       <div className="mt-[10px] flex flex-wrap justify-center">
         <div className="ml-[10px] mt-[10px] w-[200px] bg-transparent text-center text-sm">
-          <FontAwesomeIcon icon={faReact} size="2xl" />
-          <h2>Front-End</h2>
-          <span>CSS, HTML, JavaScript, Next.js, Node.js, React.js</span>
+          <FontAwesomeIcon icon={faDesktop} size="2xl" />
+          <b className="block">Front-End</b>
+          <span>CSS, HTML, JavaScript, Next.js, React.js, TypeScript</span>
         </div>
         <div className="ml-[10px] mt-[10px] w-[200px] bg-transparent text-center text-sm">
-          <FontAwesomeIcon icon={faDatabase} size="2xl" />
-          <h2>Back-End</h2>
+          <FontAwesomeIcon icon={faServer} size="2xl" />
+          <b className="block">Back-End</b>
           <span>
-            Discord.js, MySQL, Next.js, Node, PHP, phpMyAdmin, PostgreSQL, REST,
-            SCORM 2004
+            Discord.js, MySQL, Neon, Next.js, Node.js, PostgreSQL, Render,
+            Vercel
           </span>
+        </div>
+        <div className="ml-[10px] mt-[10px] w-[200px] bg-transparent text-center text-sm">
+          <FontAwesomeIcon icon={faWrench} size="2xl" />
+          <b className="block">Tools</b>
+          <span>FileZilla, Git, Postman, Tampermonkey</span>
         </div>
       </div>
       <h1 id="about" className="mt-10 text-[50px]">
