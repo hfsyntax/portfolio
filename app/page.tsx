@@ -18,13 +18,14 @@ export default async function Portfolio() {
       <br />
       <h1 className="text-[50px]">I'm Noah Kaiser</h1>
       <p className="mt-10 w-full text-xl">
-        As a recent Computer Science graduate from James Madison University, I
-        am passionate about web development and eager to start my career in this
-        dynamic field. The knowledge gained from my academic experience has
-        motivated me to create a variety of full stack web applications. After
-        learning React, I discovered the powerful Next.js framework and its
-        integration with Vercel. Vercel provided me access to create and manage
-        databases interconnected with my website applications.
+        I'm a web developer with a strong foundation in full-stack web
+        development. I have a passion for building and maintainaing interactive
+        web applications involving communities with large userbases. Since
+        earning my Computer Science degree from James Madison in May of 2023,
+        I've developed a variety of web applications using technologies like
+        Next.js, Node.js, PostgreSQL, React.js and TypeScript. To ensure my web
+        applications are scalable and provide a great user experience, I deploy
+        to Render and Vercel.
       </p>
       <Link
         className="relative ml-auto mr-auto mt-[10px] inline-block w-fit border-none bg-[lightgray] pb-5 pl-10 pr-10 pt-5 text-black no-underline transition-colors duration-500 ease-in-out hover:rounded-xl hover:bg-black hover:text-white xl:ml-0 xl:mr-0"
@@ -100,7 +101,7 @@ export default async function Portfolio() {
       <span className="mt-10 w-full text-xl">
         I have experience with both front-end and back-end technologies.
         However, I prefer working with front-end technologies because I enjoy
-        creating user interfaces.
+        creating and updating user interfaces.
       </span>
       <div className="mt-[10px] flex flex-wrap justify-center">
         <div className="ml-[10px] mt-[10px] w-[200px] bg-transparent text-center text-sm">
@@ -127,11 +128,12 @@ export default async function Portfolio() {
       </h1>
       <hr className="clear-both block h-[10px] w-full rounded-[30px] bg-black" />
       <span className="mt-10 w-full pb-3 text-xl">
-        I learned about the concept of programming through wanting to make a
-        websites game interface better. In the process of creating the interface
-        I realized programming could be used to improve applications
-        functionality and maintainability. I began to use programming as a tool
-        to create features for communities I started.
+        I was first introduced to the concept of programming while trying to
+        improve the interface and features of a web-based game called Biome 3D.
+        Throughout this process, I learned that programming could be used as a
+        powerful tool for enhancing tasks and creating better quality and modern
+        applications deployed on the internet. In my free time I also enjoy
+        playing tennis, creating video content for gaming and playing poker.
       </span>
     </div>
   )
