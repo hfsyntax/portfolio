@@ -19,7 +19,7 @@ export default async function Portfolio() {
       <h1 className="text-[50px]">I'm Noah Kaiser</h1>
       <p className="mt-10 w-full text-xl">
         I'm a web developer with a strong foundation in full-stack web
-        development. I have a passion for building and maintainaing interactive
+        development. I have a passion for building and maintaining interactive
         web applications involving communities with large userbases. Since
         earning my Computer Science degree from James Madison in May of 2023,
         I've developed a variety of web applications using technologies like
