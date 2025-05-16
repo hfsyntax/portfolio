@@ -39,6 +39,23 @@ export default async function Portfolio() {
       <hr className="clear-both block h-[10px] w-full rounded-[30px] bg-black" />
       <div className="flex flex-row flex-wrap justify-center xl:justify-normal">
         <ProjectCard
+          imageSrc="/greatvibeevents.png"
+          title="Great Vibe Events"
+          desc="Rebuilt website architecture of greatvibeevents.org using Next.js. Added ability to process customer forms electronically."
+          stack={[
+            "Next.js",
+            "Neon",
+            "Node.js",
+            "PostgreSQL",
+            "Stripe.js",
+            "Tailwind CSS",
+            "TypeScript",
+            "Vercel",
+          ]}
+          sourceURL="https://github.com/hfsyntax/greatvibeevents"
+          appURL="https://greatvibeevents.vercel.app"
+        />
+        <ProjectCard
           imageSrc="/crossyoff.png"
           title="CrossyOff"
           desc="Site for managing player data for the Competitive Crossy Road Community"
