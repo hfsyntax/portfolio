@@ -43,13 +43,13 @@ export default async function Portfolio() {
         >
           Learn More
         </Link>
-        <Link
+        <a
           className="relative mt-[10px] inline-block w-fit border-none bg-[lightgray] pb-3 pl-5 pr-5 pt-3 text-black no-underline transition-colors duration-500 ease-in-out hover:rounded-xl hover:bg-color hover:text-background md:pb-5 md:pl-10 md:pr-10 md:pt-5 xl:ml-0 xl:mr-0"
           href="/Noah_Kaiser.pdf"
           target="_blank"
         >
           Download Resume
-        </Link>
+        </a>
       </div>
 
       <h1
