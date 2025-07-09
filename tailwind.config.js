@@ -14,6 +14,10 @@ module.exports = {
       fontFamily: {
         sans: ["Arial", "Helvetica", "sans-serif"],
       },
+      colors: {
+        background: "rgba(var(--background))",
+        color: "rgba(var(--color))",
+      },
     },
   },
   plugins: [],

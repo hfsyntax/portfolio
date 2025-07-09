@@ -5,6 +5,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css"
 import { ReactNode } from "react"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
+import { Providers } from "./providers"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -33,13 +34,15 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <div className="absolute flex min-h-full w-full flex-col">
-          <Navbar />
-          {children}
-          <Footer />
-        </div>
+        <Providers>
+          <div className="absolute flex min-h-full w-full flex-col bg-background text-color">
+            <Navbar />
+            {children}
+            <Footer />
+          </div>
+        </Providers>
       </body>
     </html>
   )

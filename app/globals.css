@@ -12,3 +12,29 @@ body {
     3px 3px 8px -1px gray,
     -3px 3px 8px -1px gray;
 }
+
+:root {
+  --background: 255, 255, 255;
+  --color: 0, 0, 0;
+}
+
+.dark {
+  --background: 0, 0, 0;
+  --color: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: 0, 0, 0;
+    --color: 255, 255, 255;
+  }
+}
+
+.slider:before,
+.slider-icon {
+  transition: 0.4s;
+}
+
+.slider-checkbox:checked + .slider .slider-icon {
+  transform: translateX(36px);
+}

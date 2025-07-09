@@ -19,7 +19,7 @@ export default function ProjectCard({
   appURL,
 }: MyComponentProps) {
   return (
-    <div className="ml-[10px] mt-[10px] box-border inline-block h-fit w-[590px] border-[3px] border-solid border-black bg-[#353839] text-white">
+    <div className="mt-[10px] box-border inline-block h-fit w-full border-[3px] border-solid border-black bg-[#353839] text-white sm:w-[390px] md:ml-1 md:mr-1">
       <Image
         width={0}
         height={0}
@@ -30,7 +30,9 @@ export default function ProjectCard({
         className="h-auto w-full sm:w-[584px]"
       />
       <h2 className="m-1 text-center">{title}</h2>
-      <span className="ml-3 mt-[10px] block text-left text-sm">{desc}</span>
+      <span className="ml-3 mr-3 mt-[10px] block text-left text-sm">
+        {desc}
+      </span>
       <u className="mt-[10px] block text-center text-sm">Stack</u>
       <span className="ml-3 mt-[10px] block text-sm">{stack.join(", ")}</span>
       <div className="relative mb-[10px] mt-[10px] flex w-full justify-center gap-3">
