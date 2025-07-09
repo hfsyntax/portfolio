@@ -23,13 +23,6 @@ body {
   --color: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: 0, 0, 0;
-    --color: 255, 255, 255;
-  }
-}
-
 .slider:before,
 .slider-icon {
   transition: 0.4s;
